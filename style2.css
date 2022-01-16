@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_d {
+    background-color: rgb(0, 73, 37);
+    height: 100px;
+}
+
+.footer_d {
+    background-color: rgb(0, 73, 37);
+    height: 100px;
+}
+
+
+/* portfolio */
+
+
+/* portfolio */
+
+.timeline {
+    background-color: orange;
+}
+
+.award {
+    background-color: rgb(229, 255, 0);
+}
+
+
+/* recruiting */
+
+
+/* recruiting */
+
+.notice {
+    background-color: #E5E5E5;
+    padding-bottom: 3%;
+}
+
+
+/* RECRUITUNG BOTTOM LINE */
+
+.recruiting_title :after {
+    content: "";
+    display: block;
+    width: 250px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+
+/* RECRUITING TITLE */
+
+.recruiting_title h1 {
+    font-size: 36px;
+    font-weight: normal;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+/* RECRUITING CENTER ALIGN */
+
+.recruiting_sub {
+    display: block;
+    text-align: center;
+}
+
+
+/* RECRUITING TEXT FONT */
+
+.recruiting_text h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+/* RECRUITING TEXT IMG MARGIN, PADDING, WIDTH, HEIGHT */
+
+.recruiting_text {
+    margin-bottom: 20px;
+}
+
+.recruiting_img {
+    margin: auto;
+    padding-bottom: 70px;
+    height: auto;
+}
+
+
+/* NOTICE BOTTOM LINE */
+
+.notice_title :after {
+    content: "";
+    display: block;
+    width: 170px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+
+/* NOTICE TITLE */
+
+.notice_title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 3%;
+}
+
+
+/* NOTICE TARGET TEXT */
+
+.recruitment_target {
+    margin-top: 2%;
+}
+
+.recruitment_target h2 {
+    font-size: 30px;
+    font-weight: normal;
+    padding-left: 20px;
+    margin-bottom: 1%;
+}
+
+.recruitment_target p {
+    font-size: 26px;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.recruitment_target {
+    padding-left: 2%;
+}
+
+
+/* BUTTON */
+
+.join_btn {
+    width: 192px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.join_btn button {
+    display: inline;
+    width: 192px;
+    height: 52px;
+    font-size: 17px;
+    background-color: #18A0FB;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* .join_btn :hover {
+    cursor: pointer;
+    width: 194px;
+    height: 54px;
+    background-color: #2ba6f8;
+}
+ */
+
+
+/* MEDIA QUARY */
+
+@media all and (max-width:800px) {
+    /* RECRUITING IMG */
+    .recruiting_img img {
+        width: 70%;
+        padding-bottom: 70px;
+    }
+    .recruitment_target h2 {
+        font-size: 20px;
+        font-weight: normal;
+        padding-left: 20px;
+        margin-bottom: 1%;
+    }
+    .recruitment_target p {
+        font-size: 16px;
+        font-weight: normal;
+        padding-left: 30px;
+    }
+}
+
+@media all and (max-width:430px) {
+    .recruiting_title :after {
+        content: "";
+        display: block;
+        width: 150px;
+        border-bottom: 3px solid rgb(0, 0, 0);
+    }
+    /* RECRUITING TITLE */
+    .recruiting_title h1 {
+        font-size: 20px;
+        font-weight: normal;
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+    /* RECRUITING TEXT FONT */
+    .recruiting_text h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    /* NOTICE BOTTOM LINE */
+    .notice_title :after {
+        content: "";
+        display: block;
+        width: 100px;
+        border-bottom: 3px solid rgb(0, 0, 0);
+    }
+    /* NOTICE TITLE */
+    .notice_title h1 {
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 3%;
+    }
+    /* BUTTON */
+    .join_btn {
+        display: block;
+        width: 100px;
+        margin: auto;
+        margin-top: 2%;
+    }
+    .join_btn button {
+        width: 100px;
+        height: 40px;
+    }
+}
