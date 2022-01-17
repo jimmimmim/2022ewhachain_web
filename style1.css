@@ -1,0 +1,56 @@
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+    
+li {
+    list-style: none;
+    padding-right: 10px;
+}
+    
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+a:active,
+a:hover {
+  text-decoration: none;
+}
+
+/*++++++++++++++++*/
+/* NAVIGATION-BAR */
+/*++++++++++++++++*/
+
+.top-nav {
+    align-items: center;
+    word-break: keep-all;
+    background-color: #2d7257;
+    /* border-bottom: hidden 1px #e7e7e7; */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.gnb a:hover {
+    font-weight: bolder;
+}
+
+.ewhachain-title {
+    color: white;
+    word-break: keep-all;
+}
+
+.ewhachain-title .kor {
+    font-size: 60%;
+    letter-spacing: 2px;
+}
+
+.ewhachain-title .eng {
+    font-size: 120%;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-style: italic;
+}

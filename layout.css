@@ -1,0 +1,65 @@
+/* ++++ */
+/* FLEX */
+/* ++++ */
+
+.flex-left {
+    display: flex;
+    flex-grow: 1;
+}
+  
+.flex-right {
+    display: flex;
+    align-items: center;
+}
+
+/*++++++++++++++++*/
+/* NAVIGATION-BAR */
+/*++++++++++++++++*/
+
+.sticky-nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    z-index: 10;
+}
+
+  
+.nav-box {
+    width: 100%;
+}
+  
+.nav-box a {
+    letter-spacing: -1px;
+}
+
+.top-nav .logo {
+    margin-left: 30px;
+}
+
+.gnb ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb ul li {
+    margin-right: 30px;
+}
+
+.gnb ul li:last-child {
+    margin-right: 20px;
+}
+
+.logo-ewhachain {
+    align-self: center;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.ewhachain-title {
+    align-self: center;
+}
