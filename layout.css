@@ -63,3 +63,50 @@
 .ewhachain-title {
     align-self: center;
 }
+
+/*++++++++*/
+/* FOOTER */
+/*++++++++*/
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.menu-left {
+    margin-left: 50px;
+    flex-grow: 1;
+}
+
+.menu-right {
+    margin-right: 50px;
+}
+
+.footer-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-icons {
+    display: block;
+    margin-top: 25px;
+}
+
+.footer-icons ul {
+    display: flex;
+}
+
+.btn-image {
+    margin-right: 50px;
+}
+
+#icon-instagram {
+    margin-right: 0;
+}
