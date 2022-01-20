@@ -15,8 +15,9 @@
 
 
 <body>
+    <div data-include-path="header.html"></div>
     <!-- header -->
-    <header class="header_d"> header</header>
+    <!-- <header class="header_d"> header</header> -->
     <!-- recruiting part -->
     <div class="recruiting">
         <!-- text -->
@@ -62,19 +63,25 @@
         </div>
         <div class="faq_sub">
             <div class="faq_content">
-                <button class="question" id="que-1"><span>Q1. 컴퓨터공학과 학생만 지원할 수 있는 건가요?</span><span class="que_toggle" id="que-1-toggle">∨</span></button>
-                <div class="answer" id="ans-1">A. 전혀 아닙니다! 이화체인에는 경영학부부터 국문학과, 사이버보안, 화학과까지 다양한 전공을 가진 학생들이 모여있습니다 :)</div>
+                <button class="question" id="que-1"><span>Q1. 컴퓨터공학과 학생만 지원할 수 있는 건가요?</span><span class="que_toggle"
+                        id="que-1-toggle">∨</span></button>
+                <div class="answer" id="ans-1">A. 전혀 아닙니다! 이화체인에는 경영학부부터 국문학과, 사이버보안, 화학과까지 다양한 전공을 가진 학생들이 모여있습니다 :)
+                </div>
             </div>
             <div class="faq_content">
-                <button class="question" id="que-2"><span>Q2. 블록체인에 대해서 얼마나 많이 알아야 하나요?</span><span class="que_toggle" id="que-2-toggle">∨</span></button>
-                <div class="answer" id="ans-2">A. 많은 지식을 요구하지 않습니다.<br> 블록체인에 대한 관심과 열정만 있으면 누구든지 이화체인에서 함께 활동하실 수 있습니다!</div>
+                <button class="question" id="que-2"><span>Q2. 블록체인에 대해서 얼마나 많이 알아야 하나요?</span><span class="que_toggle"
+                        id="que-2-toggle">∨</span></button>
+                <div class="answer" id="ans-2">A. 많은 지식을 요구하지 않습니다.<br> 블록체인에 대한 관심과 열정만 있으면 누구든지 이화체인에서 함께 활동하실 수 있습니다!
+                </div>
             </div>
             <div class="faq_content">
-                <button class="question" id="que-3"><span>Q3. 저학번이어도 참여 가능한가요?</span><span class="que_toggle" id="que-3-toggle">∨</span></button>
+                <button class="question" id="que-3"><span>Q3. 저학번이어도 참여 가능한가요?</span><span class="que_toggle"
+                        id="que-3-toggle">∨</span></button>
                 <div class="answer" id="ans-3">A. 물론입니다! 현재 21학번부터 17학번까지 다양한 학번들이 모여있습니다.</div>
             </div>
             <div class="faq_content">
-                <button class="question" id="que-4"><span>Q4. 세션을 언제, 얼마나 자주 하나요?</span><span class="que_toggle" id="que-4-toggle">∨</span></button>
+                <button class="question" id="que-4"><span>Q4. 세션을 언제, 얼마나 자주 하나요?</span><span class="que_toggle"
+                        id="que-4-toggle">∨</span></button>
                 <div class="answer" id="ans-4">A. 세션의 경우, 매주 월요일 오후 6시 반마다 진행하고 있습니다.</div>
             </div>
         </div>
@@ -83,10 +90,10 @@
 
     </div>
     <!-- footer -->
-    <footer class="footer_d">footer</footer>
+    <!-- <footer class="footer_d">footer</footer> -->
 
     <!-- FAQ관련 스크립트-->
-    <script>
+    <!-- <script>
         const items = document.querySelectorAll('.question');
 
         function openCloseAnswer() {
@@ -102,8 +109,10 @@
         }
 
         items.forEach(item => item.addEventListener('click', openCloseAnswer));
-    </script>
+    </script> -->
 
+    <div data-include-path="footer.html"></div>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
