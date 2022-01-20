@@ -68,7 +68,7 @@
 /* SECTION - HOME */
 /*++++++++++++++++*/
 
-.container {
+.circle-container {
     display: flex;
     flex-grow: 1;
     border: 10px solid green;
@@ -162,7 +162,7 @@
     text-align: center;
 }
 
-.circle {
+.circle-icon {
     margin-bottom: 20px;
 }
 
