@@ -6,31 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2022 EWHACHAIN</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="layout.css" />
     <link rel="stylesheet" href="style2.css" />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
 </head>
+
 
 <body>
     <!-- header -->
     <header class="header_d"> header</header>
-    <!-- <div data-include-path="header.html"></div> -->
     <!-- recruiting part -->
     <div class="recruiting">
         <!-- text -->
-        <div class="recruiting_title">
+        <div class="recruiting_title green_title">
             <h1>&nbsp&nbspRECRUITING</h1>
         </div>
-        <div class="recruiting_sub">
-            <div class="recruiting_text">
-                <h1>EWHA-CHAIN</h1>
-                <h1>9th RECRUITING</h1>
+        <div class="recruiting_sub common_sub">
+            <div class="recruiting_sub_title common_sub_title">
+                <div class="recruiting_line1 common_line1">
+                    <hr class="line">
+                    <div class="dia"></div>
+                </div>
+                <div class="recruiting_text common_text">
+                    <h1>EWHA-CHAIN<br>9th RECRUITING</h1>
+                </div>
+                <div class="recruiting_line2 common_line2">
+                    <div class="dia"></div>
+                    <hr class="line">
+                </div>
             </div>
             <!-- image -->
             <div class="recruiting_img">
-                <img src="img/recruiting_img.jpg">
+                <img src="img/recruiting_img.jpg" class="img_file">
             </div>
         </div>
     </div>
-    <!-- notice part -->
     <div class="notice">
         <div class="notice_title">
             <h1>&nbsp&nbspNOTICE</h1>
@@ -41,14 +53,57 @@
             <p>2. 기획자 : IT 기술을 활용한 서비스 기획에 관심이 있거나 기획 경험이 있는 벗. 개발 커리큘럼을 성실히 수행할 수 있는 벗</p>
         </div>
         <!-- button -->
-        <div class="join_btn">
-            <button class="join_us">Join us</button>
+        <button class="join_us animation_ele_pulse">Join us</button>
+
+    </div>
+    <div class="faq">
+        <div class="faq_title">
+            <h1>&nbsp&nbspFAQ</h1>
         </div>
+        <div class="faq_sub">
+            <div class="faq_content">
+                <button class="question" id="que-1"><span>Q1. 컴퓨터공학과 학생만 지원할 수 있는 건가요?</span><span class="que_toggle" id="que-1-toggle">∨</span></button>
+                <div class="answer" id="ans-1">A. 전혀 아닙니다! 이화체인에는 경영학부부터 국문학과, 사이버보안, 화학과까지 다양한 전공을 가진 학생들이 모여있습니다 :)</div>
+            </div>
+            <div class="faq_content">
+                <button class="question" id="que-2"><span>Q2. 블록체인에 대해서 얼마나 많이 알아야 하나요?</span><span class="que_toggle" id="que-2-toggle">∨</span></button>
+                <div class="answer" id="ans-2">A. 많은 지식을 요구하지 않습니다.<br> 블록체인에 대한 관심과 열정만 있으면 누구든지 이화체인에서 함께 활동하실 수 있습니다!</div>
+            </div>
+            <div class="faq_content">
+                <button class="question" id="que-3"><span>Q3. 저학번이어도 참여 가능한가요?</span><span class="que_toggle" id="que-3-toggle">∨</span></button>
+                <div class="answer" id="ans-3">A. 물론입니다! 현재 21학번부터 17학번까지 다양한 학번들이 모여있습니다.</div>
+            </div>
+            <div class="faq_content">
+                <button class="question" id="que-4"><span>Q4. 세션을 언제, 얼마나 자주 하나요?</span><span class="que_toggle" id="que-4-toggle">∨</span></button>
+                <div class="answer" id="ans-4">A. 세션의 경우, 매주 월요일 오후 6시 반마다 진행하고 있습니다.</div>
+            </div>
+        </div>
+
+
+
     </div>
     <!-- footer -->
     <footer class="footer_d">footer</footer>
-    <!-- <div data-include-path="footer.html"></div> -->
-    <script type="text/javascript" src="script.js"></script>
+
+    <!-- FAQ관련 스크립트-->
+    <script>
+        const items = document.querySelectorAll('.question');
+
+        function openCloseAnswer() {
+            const answerId = this.id.replace('que', 'ans');
+
+            if (document.getElementById(answerId).style.display === 'block') {
+                document.getElementById(answerId).style.display = 'none';
+                document.getElementById(this.id + '-toggle').textContent = '∨';
+            } else {
+                document.getElementById(answerId).style.display = 'block';
+                document.getElementById(this.id + '-toggle').textContent = '∧';
+            }
+        }
+
+        items.forEach(item => item.addEventListener('click', openCloseAnswer));
+    </script>
+
 </body>
 
 </html>
