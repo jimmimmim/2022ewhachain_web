@@ -8,6 +8,16 @@
     font-family: 'AppleSDGothicNeo';
 }
 
+::selection {
+    color: #FFFFFF;
+    background: #6B70B0;
+} 
+
+html::-webkit-scrollbar {
+    /* Chrome, Safari*/
+    /* display: none;  */
+}
+
 html,
 body {
   width: 100%;
@@ -87,6 +97,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
 }
 
