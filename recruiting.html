@@ -113,6 +113,28 @@
 
     <div data-include-path="footer.html"></div>
     <script type="text/javascript" src="script.js"></script>
+    <script>
+        $(window).scroll(function() {
+            $('.faq').each(function() {
+                var imagePos = $(this).offset().top;
+
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow + 400) {
+                    $(this).addClass("fadeIn");
+                }
+            });
+        });
+        $(window).scroll(function() {
+            $('.notice').each(function() {
+                var imagePos = $(this).offset().top;
+
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow + 400) {
+                    $(this).addClass("fadeIn");
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2022 EWHACHAIN</title>
     <link rel="stylesheet" href="style2.css" />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 
 <body>
@@ -32,66 +33,95 @@
             </div>
             <section class="cd-timeline js-cd-timeline">
                 <div class="container max-width-lg cd-timeline__container">
+                    <div class="arrow">
+                        <div class="bar_line1 animation_fade_in">
+                            <div class="arrow_empty"></div>
+                            <hr class="bar_line_sub">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="bar_line2 animation_fade_in">
+                            <div class="circle"></div>
+                            <hr class="bar_line_sub">
+                            <div class="arrow_empty"></div>
+                        </div>
+                        <div class="bar_line1 animation_fade_in">
+                            <div class="arrow_empty"></div>
+                            <hr class="bar_line_sub">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="bar_line2 animation_fade_in">
+                            <div class="circle"></div>
+                            <hr class="bar_line_sub">
+                            <div class="arrow_empty"></div>
+                        </div>
+                        <div class="bar_line1 animation_fade_in">
+                            <div class="arrow_empty"></div>
+                            <hr class="bar_line_sub">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
                     <div class="timeline_img">
                         <img src="img/bar.png">
                     </div>
-                    <div class="cd-timeline__block">
-                        <div class="cd-timeline__content text-component">
+
+                    <div class="cd-timeline__block animation_fade_in">
+                        <div class="cd-timeline__content text-component1">
                             <p>EWHA-CHAIN 1기 모집</p>
-                            <div class="bar_line1">
-                                <div class="circle"></div>
+                            <div id="triangle-topleft"></div>
+                            <!-- <div class="bar_line1">
                                 <hr class="bar_line_sub">
-                            </div>
+                                <div class="circle"></div>
+                            </div> -->
                             <h1>2018</h1>
                         </div>
                         <!-- cd-timeline__content -->
                     </div>
                     <!-- cd-timeline__block -->
 
-                    <div class="cd-timeline__block">
+                    <div class="cd-timeline__block animation_fade_in">
                         <!-- ... -->
-                        <div class="cd-timeline__content text-component">
+                        <div class="cd-timeline__content text-component2">
+                            <h1>2019</h1>
+                            <div id="triangle-topright"></div>
                             <p>WELCOME to MAKES WORLD SW/HW 통합 특별상<br>한국통신학회 추계종합학술대회 학부논문경진대회 장려상<br> OCF 개발자 경진대회 대상
                             </p>
-                            <div class="bar_line2">
+                            <!-- <div class="bar_line2">
                                 <hr class="bar_line_sub">
                                 <div class="circle"></div>
-                            </div>
-                            <h1>2019</h1>
+                            </div> -->
+
                         </div>
                     </div>
-                    <div class="cd-timeline__block">
+                    <div class="cd-timeline__block animation_fade_in">
                         <!-- ... -->
-                        <div class="cd-timeline__content text-component">
-                            <p>NAVER AI BURNING DAY해커톤 본선 진출<br>제3회 데이터 걸스데이톤 최우수상 한화 드림인 블록체인 해커톤 본선 진출<br>2021 혁신적인
-                                ICT 제품∙서비스 발굴을 위한 아이디어 공모전 금상<br>한국인터넷진흥원 2020 블록체인 아이디어 공모전 장관상(대상)<br>Kakao GroundX
-                                MDAG 산학협력 NH디지털혁신캠퍼스 해커톤 장려상</p>
-                            <div class="bar_line1">
+                        <div class="cd-timeline__content text-component1">
+                            <p>NAVER AI BURNING DAY해커톤 본선 진출<br>제3회 데이터 걸스데이톤 최우수상 한화 드림인 블록체인 해커톤 본선 진출<br>2021 혁신적인 ICT 제품∙서비스 발굴을 위한 아이디어 공모전 금상<br>한국인터넷진흥원 2020 블록체인 아이디어 공모전 장관상(대상)<br>Kakao GroundX MDAG 산학협력 NH디지털혁신캠퍼스 해커톤 장려상</p>
+                            <div id="triangle-topleft"></div>
+
+                            <!-- <div class="bar_line1">
                                 <div class="circle"></div>
                                 <hr class="bar_line_sub">
-                            </div>
+                            </div> -->
                             <h1>2020</h1>
                         </div>
                     </div>
-                    <div class="cd-timeline__block">
+                    <div class="cd-timeline__block animation_fade_in">
                         <!-- ... -->
-                        <div class="cd-timeline__content text-component">
-                            <p>Taebit Global Defi Online HACKATHON 장려상<br>MAKE IT MOBILE HACKATHON WITH CELO<br>3rd
-                                Place / Best Women’s Project상</p>
-                            <div class="bar_line2">
+                        <div class="cd-timeline__content text-component2">
+                            <h1>2021</h1>
+                            <div id="triangle-topright"></div>
+                            <p>Taebit Global Defi Online HACKATHON 장려상<br>MAKE IT MOBILE HACKATHON WITH CELO<br>3rd Place / Best Women’s Project상</p>
+                            <!-- <div class="bar_line2">
                                 <div class="circle"></div>
                                 <hr class="bar_line_sub">
-                            </div>
-                            <h1>2021</h1>
+                            </div> -->
+
                         </div>
                     </div>
-                    <div class="cd-timeline__block">
+                    <div class="cd-timeline__block animation_fade_in">
                         <!-- ... -->
-                        <div class="cd-timeline__content text-component">
-                            <div class="bar_line1">
-                                <hr class="bar_line_sub">
-                                <div class="circle"></div>
-                            </div>
+                        <div class="cd-timeline__content text-component1">
+                            <div class="last_p"></div>
                             <h1>2022</h1>
                         </div>
                     </div>
@@ -101,8 +131,8 @@
             </section>
             <!-- image -->
             <div class="who_we_are">
-                <div class="who_we_are_title">Who we are</div>
-                <div class="award award1">
+                <div class="who_we_are_title animation_fade_in2">Who we are</div>
+                <div class="award award1 animation_fade_in2">
                     <div class="award_text">
                         <h2>WELCOME to MAKES WORLD<br><b>SW/HW 통합 특별상</b></h2>
                         <p>이화체인은 블록체인으로 세상을<br>바꾸는데 앞장서고자 합니다.</p>
@@ -111,7 +141,7 @@
                         <img src="img/award_img1.png">
                     </div>
                 </div>
-                <div class="award award2">
+                <div class="award award2 animation_fade_in2">
                     <div class="award_img"><img src="img/award_img2.png"></div>
                     <div class="award_text">
                         <h2>한국통신학회 추계종합학술대회<br>학부논문경진대회 <b>장려상</b></h2>
@@ -119,15 +149,15 @@
 
                     </div>
                 </div>
-                <div class="award award1">
+                <div class="award award1 animation_fade_in2">
                     <div class="award_text">
-                        <h2>OCF 개발 경진대회 대상<b>대상</b></h2>
+                        <h2>OCF 개발 경진대회 <b>대상</b></h2>
                         <p>개발 관련 세션도 준비되어 있습니다.</p>
 
                     </div>
                     <div class="award_img"><img src="img/award_img3.png"></div>
                 </div>
-                <div class="award award2">
+                <div class="award award2 animation_fade_in2">
                     <div class="award_img"><img src="img/award_img4.png"></div>
                     <div class="award_text">
                         <h2>한국인터넷진흥원 블록체인<br>아이디어 공모전 <b>대상(장관상)</b></h2>
@@ -135,7 +165,7 @@
 
                     </div>
                 </div>
-                <div class="award award1">
+                <div class="award award1 animation_fade_in2">
                     <div class="award_text">
                         <h2>제 3회 데이터 걸스데이톤 <b>최우수상</b></h2>
                         <p>블록체인 분야를 선도하는 여성 인재를 육성하겠습니다.</p>
@@ -143,7 +173,7 @@
                     </div>
                     <div class="award_img"><img src="img/award_img5.png"></div>
                 </div>
-                <div class="award award2">
+                <div class="award award2 animation_fade_in2">
                     <div class="award_img"><img src="img/award_img6.png"></div>
                     <div class="award_text">
                         <h2>다양한 해커톤 프로젝트 진행</h2>
@@ -157,6 +187,26 @@
     </div>
     <div data-include-path="footer.html"></div>
     <script type="text/javascript" src="script.js"></script>
+    <script>
+        $(window).scroll(function() {
+            $('.animation_fade_in').each(function() {
+                var imagePos = $(this).offset().top;
+
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow + 400) {
+                    $(this).addClass("fadeIn");
+                }
+            });
+            $('.animation_fade_in2').each(function() {
+                var imagePos = $(this).offset().top;
+
+                var topOfWindow = $(window).scrollTop();
+                if (imagePos < topOfWindow + 600) {
+                    $(this).addClass("fadeIn");
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
