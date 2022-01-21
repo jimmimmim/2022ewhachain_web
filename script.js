@@ -16,7 +16,7 @@ window.addEventListener('load', function () {
     });
 });
 
-// <!-- FAQ관련 스크립트-->
+// FAQ관련 스크립트
 const items = document.querySelectorAll('.question');
 
 function openCloseAnswer() {
