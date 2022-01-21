@@ -232,7 +232,7 @@
 .faq {
     background-color: #F5F5F5;
     padding-bottom: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 100px;
     visibility: hidden;
 }
 
@@ -505,73 +505,6 @@
 }
 
 
-/* MEDIA QUARY */
-
-@media all and (max-width:800px) {
-    /* RECRUITING IMG */
-    .recruiting_img img {
-        width: 70%;
-        padding-bottom: 70px;
-    }
-    .recruitment_target h2 {
-        font-size: 20px;
-        font-weight: normal;
-        padding-left: 20px;
-        margin-bottom: 1%;
-    }
-    .recruitment_target p {
-        font-size: 16px;
-        font-weight: normal;
-        padding-left: 30px;
-    }
-}
-
-@media all and (max-width:430px) {
-    .recruiting_title :after {
-        content: "";
-        display: block;
-        width: 150px;
-        border-bottom: 3px solid rgb(0, 0, 0);
-    }
-    /* RECRUITING TITLE */
-    .recruiting_title h1 {
-        font-size: 20px;
-        font-weight: normal;
-        padding-top: 3%;
-        padding-bottom: 3%;
-    }
-    /* RECRUITING TEXT FONT */
-    .recruiting_text h1 {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    /* NOTICE BOTTOM LINE */
-    .notice_title :after {
-        content: "";
-        display: block;
-        width: 100px;
-        border-bottom: 3px solid rgb(0, 0, 0);
-    }
-    /* NOTICE TITLE */
-    .notice_title h1 {
-        font-size: 20px;
-        font-weight: bold;
-        padding-top: 3%;
-    }
-    /* BUTTON */
-    .join_btn {
-        display: block;
-        width: 100px;
-        margin: auto;
-        margin-top: 2%;
-    }
-    .join_btn button {
-        width: 100px;
-        height: 40px;
-    }
-}
-
-
 /* animation */
 
 .slideUp {
@@ -715,194 +648,166 @@
 }
 
 
-/*
-==============================================
-stretchLeft
-==============================================
-*/
-
-.stretchLeft {
-    animation-name: stretchLeft;
-    -webkit-animation-name: stretchLeft;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-    transform-origin: 100% 0%;
-    -ms-transform-origin: 100% 0%;
-    -webkit-transform-origin: 100% 0%;
-}
-
-@keyframes stretchLeft {
-    0% {
-        transform: scaleX(0.3);
-    }
-    40% {
-        transform: scaleX(1.02);
-    }
-    60% {
-        transform: scaleX(0.98);
-    }
-    80% {
-        transform: scaleX(1.01);
-    }
-    100% {
-        transform: scaleX(0.98);
-    }
-    80% {
-        transform: scaleX(1.01);
-    }
-    100% {
-        transform: scaleX(1);
-    }
-}
-
-@-webkit-keyframes stretchLeft {
-    0% {
-        -webkit-transform: scaleX(0.3);
-    }
-    40% {
-        -webkit-transform: scaleX(1.02);
-    }
-    60% {
-        -webkit-transform: scaleX(0.98);
-    }
-    80% {
-        -webkit-transform: scaleX(1.01);
-    }
-    100% {
-        -webkit-transform: scaleX(0.98);
-    }
-    80% {
-        -webkit-transform: scaleX(1.01);
-    }
-    100% {
-        -webkit-transform: scaleX(1);
-    }
-}
+/* MEDIA QUARY */
 
 
-/*
-==============================================
-stretchRight
-==============================================
-*/
+/* mobile device */
 
-.stretchRight {
-    animation-name: stretchRight;
-    -webkit-animation-name: stretchRight;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
-    animation-timing-function: ease-out;
-    -webkit-animation-timing-function: ease-out;
-    transform-origin: 0% 0%;
-    -ms-transform-origin: 0% 0%;
-    -webkit-transform-origin: 0% 0%;
-}
-
-@keyframes stretchRight {
-    0% {
-        transform: scaleX(0.3);
+@media screen and (min-width:431px) and (max-width: 1024px) {
+    .recruitment_target h2 {
+        font-size: 20px;
+        font-weight: normal;
+        padding-left: 0px;
+        margin-bottom: 1%;
     }
-    40% {
-        transform: scaleX(1.02);
+    .recruitment_target p {
+        font-size: 20px;
+        font-weight: normal;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 1%;
     }
-    60% {
-        transform: scaleX(0.98);
+    .recruitment_target {
+        padding: 0 10px;
     }
-    80% {
-        transform: scaleX(1.01);
+    .green_title h1 {
+        padding-left: 0;
+        text-align: center;
     }
-    100% {
-        transform: scaleX(0.98);
+    .green_title h1::after {
+        display: none;
     }
-    80% {
-        transform: scaleX(1.01);
+    .common_text {
+        flex: 1.5;
+        margin-bottom: 0px;
     }
-    100% {
-        transform: scaleX(1);
+    .common_text h1 {
+        font-size: 20px;
+    }
+    .common_title h1 {
+        font-size: 20px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .common_title h1::after {
+        display: none;
+    }
+    .join_us {
+        transform: scale(0.6);
+    }
+    .faq_sub {
+        margin: 10px 20px 10px 20px;
+    }
+    .faq_content {
+        border-bottom: solid 1px black;
+    }
+    .question {
+        font-size: 20px;
+        font-weight: normal;
+        padding: 20px 0;
+    }
+    .answer {
+        padding: 10px 10px 20px 10px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .recruiting_img {
+        padding-bottom: 0px;
+    }
+    .img_file {
+        padding-bottom: 10px;
+        width: 70%;
+        padding-bottom: 70px;
     }
 }
 
-@-webkit-keyframes stretchRight {
-    0% {
-        -webkit-transform: scaleX(0.3);
+@media screen and (max-width: 430px) {
+    .recruitment_target h2 {
+        font-size: 20px;
+        font-weight: normal;
+        padding-left: 0px;
+        margin-bottom: 1%;
     }
-    40% {
-        -webkit-transform: scaleX(1.02);
+    .recruitment_target p {
+        font-size: 20px;
+        font-weight: normal;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 1%;
     }
-    60% {
-        -webkit-transform: scaleX(0.98);
+    .recruitment_target {
+        padding: 0 10px;
     }
-    80% {
-        -webkit-transform: scaleX(1.01);
+    .green_title h1 {
+        padding-left: 0;
+        text-align: center;
+        padding: 15px 0 0 0;
+        font-size: 20px;
     }
-    100% {
-        -webkit-transform: scaleX(0.98);
+    .green_title {
+        height: 50px;
     }
-    80% {
-        -webkit-transform: scaleX(1.01);
+    .green_title h1::after {
+        display: none;
     }
-    100% {
-        -webkit-transform: scaleX(1);
+    .common_text {
+        flex: 1.5;
+        margin-bottom: 0px;
     }
-}
-
-
-/*
-==============================================
-slideUp
-==============================================
-*/
-
-.slideUp {
-    animation-name: slideUp;
-    -webkit-animation-name: slideUp;
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    animation-timing-function: ease;
-    -webkit-animation-timing-function: ease;
-    visibility: visible !important;
-}
-
-@keyframes slideUp {
-    0% {
-        transform: translateY(100%);
+    .common_text h1 {
+        font-size: 20px;
     }
-    50% {
-        transform: translateY(-8%);
+    .common_title h1 {
+        font-size: 20px;
+        padding-left: 0;
+        text-align: center;
     }
-    65% {
-        transform: translateY(4%);
+    .common_title h1::after {
+        display: none;
     }
-    80% {
-        transform: translateY(-4%);
+    .join_us {
+        transform: scale(0.6);
     }
-    95% {
-        transform: translateY(2%);
+    .faq_sub {
+        margin: 10px 20px 10px 20px;
     }
-    100% {
-        transform: translateY(0%);
+    .faq_content {
+        border-bottom: solid 1px black;
     }
-}
-
-@-webkit-keyframes slideUp {
-    0% {
-        -webkit-transform: translateY(100%);
+    .question {
+        font-size: 20px;
+        font-weight: normal;
+        padding: 20px 0;
     }
-    50% {
-        -webkit-transform: translateY(-8%);
+    .answer {
+        padding: 10px 10px 20px 10px;
+        font-size: 15px;
+        line-height: 30px;
     }
-    65% {
-        -webkit-transform: translateY(4%);
+    .recruiting_img {
+        padding-bottom: 0px;
     }
-    80% {
-        -webkit-transform: translateY(-4%);
+    .img_file {
+        padding-bottom: 10px;
+        width: 70%;
+        padding-bottom: 70px;
     }
-    95% {
-        -webkit-transform: translateY(2%);
-    }
-    100% {
-        -webkit-transform: translateY(0%);
+    .recruiting_text h1 {
+        font-size: 15px;
     }
 }
+
+
+/* iPads, Tablets */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+
+/* Small screens, laptops */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+
+/* Desktops, large screens */
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {}
