@@ -679,6 +679,32 @@
 }
 
 @media screen and (min-width:768px) and (max-width: 1024px) {
+    .award_img img {
+        width: 100%;
+    }
+    .cd-timeline__block p {
+        font-size: 10px;
+    }
+    .who_we_are_title {
+        font-size: 20px;
+    }
+    .award_text h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+    .award_text p {
+        font-size: 13px;
+        text-align: center;
+    }
+    .award1 {
+        flex-direction: column;
+    }
+    .award2 {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width:260px) and (max-width: 1024px) {
     .recruitment_target h2 {
         font-size: 20px;
         font-weight: normal;
@@ -744,32 +770,6 @@
         width: 70%;
         padding-bottom: 70px;
     }
-    .award_img img {
-        width: 100%;
-    }
-    .cd-timeline__block p {
-        font-size: 10px;
-    }
-    .who_we_are_title {
-        font-size: 20px;
-    }
-    .award_text h2 {
-        font-size: 15px;
-        text-align: center;
-    }
-    .award_text p {
-        font-size: 13px;
-        text-align: center;
-    }
-    .award1 {
-        flex-direction: column;
-    }
-    .award2 {
-        flex-direction: column-reverse;
-    }
-}
-
-@media screen and (min-width:330px) and (max-width: 767px) {
     .arrow {
         display: none;
     }
@@ -796,12 +796,16 @@
         flex: 0.3;
     }
     .text-component2 p {
+        padding: 5px, 5px;
         text-align: right;
-        font-size: 10px;
+        font-size: 9px;
+        line-height: 10px;
     }
     .text-component1 p {
+        padding: 5px, 5px;
+        text-align: right;
         line-height: 15px;
-        font-size: 10px;
+        font-size: 9px;
     }
     #triangle-topleft {
         margin-left: 0;
