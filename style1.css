@@ -8,6 +8,16 @@
     font-family: 'AppleSDGothicNeo';
 }
 
+::selection {
+    color: #FFFFFF;
+    background: #6B70B0;
+} 
+
+html::-webkit-scrollbar {
+    /* Chrome, Safari*/
+    /* display: none;  */
+}
+
 html,
 body {
   width: 100%;
@@ -87,6 +97,7 @@ a:hover {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
 }
 
@@ -120,30 +131,66 @@ a:hover {
     text-align: center;
 }
 
+.section-upper::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 2px;
+    height: 35px;
+    margin-left: 20px;
+    border-right: 6px solid black;
+}
+
 .sub-title {
     height: max-content;
     /*    top   right bottom left */
     margin: 30px  30px  0   50px;
-    border: 10px solid yellowgreen;
+    /* border: 10px solid yellowgreen; */
 }
 
 /*+++++++++++++++++++++++++++*/
 /* SECTION 03 - Our Activity */
 /*+++++++++++++++++++++++++++*/
 
-
-
-.circle-icon {
+.circle-icon, .circle-icon-member {
     margin: 0 auto;
-    width: 150px;
-    height: 150px;
     padding: 20px;
     background: #2d7257;
-    background-image: url(img/icon/link.png);
     background-position: center;
-    background-size: 100px;
     background-repeat: no-repeat;
     border-radius: 50%;
+}
+
+.circle-icon {
+    width: 150px;
+    height: 150px;
+    background-size: 100px;
+    background-image: url(img/icon/link.png);
+}
+
+.circle-icon-member {
+    width: 100px;
+    height: 100px;
+    background: white;
+    background-size: 140px;
+    background-image: url(img/icon/profile.png);
+}
+
+/* SECTION - Recruiting Banner */
+.txtbtn {
+    display: inline-block;
+    color: #2d7257;
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background: white;
+    border: 1px solid #2d7257;
+    border-radius: 5px;
+}
+
+.txtbtn:hover{
+    background: #f5f4f4;
+    cursor: pointer;
 }
 
 /*++++++++*/

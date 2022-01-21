@@ -71,7 +71,7 @@
 .circle-container {
     display: flex;
     flex-grow: 1;
-    border: 10px solid green;
+    /* border: 10px solid green; */
     text-align: center;
 }
 
@@ -127,15 +127,28 @@
     background: #EDEDED;
 }
 
+.sec-06 {
+    padding: 20px 0;
+    background: #EDEDED;
+}
+
+.sec-06-01 {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+
 .section-upper {
-    border: 10px solid blue;
+    font-size: 120%;
+    margin: 20px 0;
+    /* border: 10px solid blue; */
 }
 
 .section-left {
     width: 50%;
     /*    top   right bottom left */
     margin: 30px  30px  0   0px;
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
 
 }
 
@@ -143,7 +156,7 @@
     width: 50%;
     margin-top: 30px;
     margin-right: 50px;
-    border: 3px solid tomato;
+    /* border: 3px solid tomato; */
 
 }
 
@@ -162,7 +175,7 @@
     text-align: center;
 }
 
-.circle-icon {
+.circle-icon, .circle-icon-member {
     margin-bottom: 20px;
 }
 
@@ -170,7 +183,7 @@
     display: block;
     height: 50px;
     /* text vertical align middle */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /*++++++++*/
@@ -219,4 +232,14 @@
 
 #icon-instagram {
     margin-right: 0;
+}
+
+/* PORTFOLIO PAGE */
+.timeline {
+    margin-top: 80px;
+}
+
+/* RECRUITING PAGE */
+.recruiting {
+    margin-top: 80px;
 }
