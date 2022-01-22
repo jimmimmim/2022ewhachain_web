@@ -13,11 +13,9 @@
 
 </head>
 
-
 <body>
-    <div data-include-path="header.html"></div>
     <!-- header -->
-    <!-- <header class="header_d"> header</header> -->
+    <div data-include-path="header.html"></div>
     <!-- recruiting part -->
     <div class="recruiting">
         <!-- text -->
@@ -89,52 +87,8 @@
 
 
     </div>
-    <!-- footer -->
-    <footer class="footer_d">footer</footer>
-
-    <!-- FAQ관련 스크립트-->
-    <!-- <script>
-        const items = document.querySelectorAll('.question');
-
-        function openCloseAnswer() {
-            const answerId = this.id.replace('que', 'ans');
-
-            if (document.getElementById(answerId).style.display === 'block') {
-                document.getElementById(answerId).style.display = 'none';
-                document.getElementById(this.id + '-toggle').textContent = '∨';
-            } else {
-                document.getElementById(answerId).style.display = 'block';
-                document.getElementById(this.id + '-toggle').textContent = '∧';
-            }
-        }
-
-        items.forEach(item => item.addEventListener('click', openCloseAnswer));
-    </script> -->
-
     <div data-include-path="footer.html"></div>
     <script type="text/javascript" src="script.js"></script>
-    <script>
-        $(window).scroll(function() {
-            $('.faq').each(function() {
-                var imagePos = $(this).offset().top;
-
-                var topOfWindow = $(window).scrollTop();
-                if (imagePos < topOfWindow + 400) {
-                    $(this).addClass("fadeIn");
-                }
-            });
-        });
-        $(window).scroll(function() {
-            $('.notice').each(function() {
-                var imagePos = $(this).offset().top;
-
-                var topOfWindow = $(window).scrollTop();
-                if (imagePos < topOfWindow + 400) {
-                    $(this).addClass("fadeIn");
-                }
-            });
-        });
-    </script>
 </body>
 
 </html>

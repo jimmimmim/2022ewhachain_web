@@ -84,6 +84,65 @@ a:hover {
     letter-spacing: 1px;
 }
 
+/*++++++++++*/
+/* DROPDOWN */
+/*++++++++++*/
+
+.gnb ul li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* 펼치기 전 (none) */
+.dropdown-content {
+    display: none;
+    position: fixed;
+    top: 80px;
+    width: 120px;
+    height: max-content;
+    right: 0;
+    background-color: white;
+    overflow: auto;
+}
+
+/* 펼친 후 커서 올렸을 때 */
+.dropdown-content a:hover {
+    font-weight: 500;
+}
+  
+/* 펼칠 때 */
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+.dropdown-content-submenu {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.dropdown-content-submenu a {
+    padding: 6px 0;
+    border: 1px solid #2d7257;
+    border-top: none;
+    display: block;
+    color: #2d7257;
+}
+
+.dropdown-content-submenu a:hover {
+    font-weight: bolder;
+    transition-duration: 0s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
 /*++++++++++++++++*/
 /* SECTION - HOME */
 /*++++++++++++++++*/
@@ -108,6 +167,7 @@ a:hover {
     font-size: 200%;
     font-weight: 900;
     font-style: italic;
+    letter-spacing: 1.3px;
     color: white;
 }
 
