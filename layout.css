@@ -72,6 +72,7 @@
     display: flex;
     flex-grow: 1;
     /* border: 10px solid green; */
+    color: black;
     text-align: center;
 }
 
@@ -156,8 +157,6 @@
     width: 50%;
     margin-top: 30px;
     margin-right: 50px;
-    /* border: 3px solid tomato; */
-
 }
 
 /* SECTION - Our Activity */
@@ -173,10 +172,6 @@
     height: 260px;
     margin-bottom: 20px;
     text-align: center;
-}
-
-.circle-icon, .circle-icon-member {
-    margin-bottom: 20px;
 }
 
 .icontxt {
@@ -241,5 +236,10 @@
 
 /* RECRUITING PAGE */
 .recruiting {
+    margin-top: 80px;
+}
+
+/* ACTING PAGE */
+.member {
     margin-top: 80px;
 }
