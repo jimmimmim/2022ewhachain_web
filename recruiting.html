@@ -149,7 +149,31 @@
     </div>
     <div data-include-path="footer.html"></div>
     <script type="text/javascript" src="navbar.js"></script>
+    <style>
+        .fadeinleft {
+            opacity:0;
+            margin-left:-300px;    
+            max-width:100%;
+        }
+    </style>
+    <script>
+        /*fade 코드*/
+        $(document).ready(function() {
+    $(window).scroll( function(){
+        $('.fadeinleft').each( function(i){
+            
+            var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            if( bottom_of_window+700 > bottom_of_element ){
+                $(this).animate({'opacity':'1','margin-left':'0px'},1000);
+            }
+            
+        }); 
+    });
+});
 
+</script>
 </body>
 
 </html>
