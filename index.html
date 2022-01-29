@@ -4,286 +4,386 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>이화체인 EWHACHAIN</title>
     <link rel="stylesheet" href="style1.css" />
     <link rel="stylesheet" href="style2.css" />
     <link rel="stylesheet" href="layout.css" />
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+    src="https://kit.fontawesome.com/2d323a629b.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 
 <body>
     <header>
-        <nav class="top-nav sticky-nav">
-            <div class="flex-left">
-                <div class="logo-ewhachain">
-                    <a href="index.html">
-                        <img src="img/logo_ewhachain.png" width=50 height=auto alt="ewhachain-logo" title="logo">
-                    </a>
-                </div>
-                <div class="ewhachain-title">
-                    <p class="kor">이화여자대학교 블록체인 학회</p>
-                    <p class="eng">EWHA-CHAIN</p>
-                </div>
+        <nav class="navbar">
+            <!-- Logo with text -->
+            <div class="navbar__logo">
+              <a href="index.html">
+                  <img src="sitelogo.png" width=200 height=auto alt="ewhachain-logo" title="logo">
+              </a>
             </div>
-            <div class="flex-right">
-                <div class="gnb">
-                    <ul>
-                        <li>
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="recruiting.html">Recruiting</a>
-                        </li>
-                        <div class="dropdown">
-                            <li>
-                                <a href="acting.html">Members</a>
-                                <div class="dropdown-content">
-                                    <div class="dropdown-content-submenu">
-                                        <a href="acting.html">Acting</a>
-                                        <a href="alumni.html">Alumni</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            
+            <!-- Menu -->
+            <ul class="navbar__menu">
+              <li>                           
+                  <a href="index.html">Home</a>
+              </li>
+              <li>
+                  <a href="#" onclick="alert('곧 공개됩니다!');return false;">Portfolio</a>
+              </li>
+              <li>                            
+                  <a href="recruiting.html">Recruiting</a>
+              </li>
+              <li>                                
+                  <a href="acting.html">Members</a>
+              </li>
+              <li>
+                  <a href="#" onclick="alert('졸업 학회원, 현 학회원 대상으로 곧 공개됩니다!');return false;">Alumni</a>
+              </li>
+            </ul>
+            <!-- Toggle button -->
+            <a href="#" class="navbar__toggleBtn">
+              <i class="fas fa-bars"></i>
+            </a>
+          </nav>
     </header>
-    <!-- <div class="container"> -->
-    <div class="sub-section sec-01" id="hero-img">
-        <h2 id="sec-01-title">
-            We are EWHA CHAIN
-        </h2>
-        <p id="sec-01-slogan">
-            where we lead the industry of block chain
-        </p>
-    </div>
-    <div class="section sec-half sec-02" id="our-mission">
-        <div class="section-left">
-            <div>
+    <div id="container">
+        <section>
+            <div class="sub-section sec-01" id="hero-img">
+                <h2 id="sec-01-title" class="typing-txt">
+                    <ul>
+                        <li>&nbsp;Where Change Begins,</li>
+                        <li>&nbsp;Where chain begins,</li>
+                        <li>&nbsp;We are chainers.</li>
+                    </ul>
+                </h2>
+                <h2 id="sec-01-title" class="typing">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </h2>
+                <p id="sec-01-slogan">
+                    Where We Lead The Industry of Blockchain
+                </p>
+            </div>
+        </section>
+        <section class="contentbig">
+            <br>
+            <br>
+            <div class="section sec-half sec-02 fadeinleft flexbox" id="our-mission">
+                <div class="section-left item">
+                    <div>
+                        <div class="section-upper">
+                            <h2 class="sub-title">
+                                Our Mission
+                            </h2>
+                        </div>
+                        <h3 class="sub-content">
+                            "Blockchain Ecosystem Leader"
+                        </h3>
+                        <br>
+                        <p class="content">
+                             이화체인의 미션은 <strong>블록체인에 관심있는 인재들이 교류하며 직접 블록체인 관련 프로젝트를 기획하고 개발할 수 있는 차세대 블록체인 생태계 리더를 만드는 것</strong>입니다. 이화체인은 전세계적으로 주목받고 있는 블록체인 기술에 관심있는 이화인들이 모여 블록체인을 공부하고, 블록체인 프로젝트를 직접 기획 및 개발해보는 학회입니다. 또한 실제로 블록체인 관련 스타트업부터 대기업까지 다양한 곳에서 인턴십을 진행하고 있는 학회원들이 많으며, 블록체인 업계로 진출하고자 하는 학회원들이 많은 학회입니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="section-right item">
+                    <div class="section-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="contentbig">
+            <div class="section sec-03 fadeinleft" id="our-activity">
                 <div class="section-upper">
                     <h2 class="sub-title">
-                        Our Mission
+                        Our Activity
                     </h2>
                 </div>
-                <h3 class="sub-content">
-                    넥스트 블록체인 형성
-                </h3>
-                <p class="content">
-                    이화체인의 미션은 블록체인에 관심있는 사람들끼리 모여 직접 블록체인 관련 프로젝트를 기획하고 개발할 수 있는 <strong>"차세대 블록체인 생태계 리더"</strong>를 만드는
-                    것입니다.
-                </p>
+                <div class="circle-container" style="text-align: center;">
+                    <div class="wrapper-circle">
+                        <div class="wrapper-icontxt">
+                            <div class="circle-icon" id="circle-01">
+
+                            </div>
+                            <p class="icontxt">블록체인 코어 스터디<br> (실제 체인 개발 진행)</p> 
+                        </div>
+                        <div class="wrapper-icontxt">
+                            <div class="circle-icon" id="circle-02">
+
+                            </div>
+                            <p class="icontxt">해커톤 및 IT계열<br>각종 공모전 참가 </p>
+                        </div>
+                        <div class="wrapper-icontxt">
+                            <div class="circle-icon" id="circle-03">
+
+                            </div>
+                            <p class="icontxt">
+                                국내 기업 & 대학과의<br>
+                                블록체인 네트워크
+                            </p>
+                        </div>
+                        <div class="wrapper-icontxt">
+                            <div class="circle-icon" id="circle-04">
+
+                            </div>
+                            <p class="icontxt">블록체인 업계 <br> 연사 초청 세미나</p>
+                        </div>
+                        <div class="wrapper-icontxt">
+                            <div class="circle-icon" id="circle-05">
+
+                            </div>
+                            <p class="icontxt">
+                                블록체인 입문자 대상<br>
+                                웨비나 개최
+                            </p>
+                        </div>
+                        <div class="wrapper-icontxt">
+                            <div class="circle-icon" id="circle-06">
+
+                            </div>
+                            <p class="icontxt">각종 TF 구성을 통한 <br> 다양한 프로젝트 진행</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section sec-04 fadeinleft" id="more">
+            <div class="section-upper">
+                <h2 class="sub-title">
+                    Networking
+                </h2>
+            </div>
+            <div class="sec-04-01 flexbox">
+                <div class="section-left item2" style="text-align: center;">
+                    <img src="img/web01.jpeg"  height=auto id="web-logo" />
+                    <img src="img/web02.jpeg"  height=auto id="web-logo" />
+                </div>
+                <div class="section-right item2" id="webdescription">
+                    <p>
+                        <strong>이화여자대학교 컴퓨터공학과 채기준 교수님</strong>을 지도교수님으로, <br>
+                        블록체인 업계 이화여대 출신 선배님들과 교류하고 있습니다. <br>
+                        제1회 웨비나에서는 <strong>전 디사이퍼 학회장 오세진 연사님</strong>,<br> 제2회 웨비나에서는 <strong>VMware 박세열 교수님</strong>, <strong>Kryptoseoul 에리카 강(강현정) 연사님</strong>을 모시고 세션을 진행하였습니다. <br>
+                        <strong>제3회 웨비나 및 학회설명회는 2월 26일 오후 2시에 진행될 예정입니다. </strong>
+                    </p>
+                </div>
+            </div>
+            <div class="sec-04-02 flexbox">
+                <div class="section-left item2">
+                    <p id="beyond">
+                        <strong>"B</strong>lockchain<strong>E</strong>wha<strong>Y</strong>onsei<strong>OND"</strong>
+                    </p>
+                    <p id="beyond-detail">
+                        <strong>연세대학교 블록체인 학회(Blockchain at Yonsei, B@Y)</strong>와 함께 BEYOND라는 팀을 만들어 블록체인 기반 애플리케이션을 기획, 개발하는 프로젝트를 진행했었으며, 'Celo'와 'Flow' 블록체인을 활용했습니다.
+                        (2021 MAKE IT MOBILE HACKATHON WITH CELO 3rd Place, Best Women’s Project 수상)
+                    </p>
+                    <p>
+                        BEYOND는 국내에서 대학생으로서는 최초로 NFT 기반 dApp 출시를 앞두고 있습니다.
+                    </p>
+                </div>
+                <div class="section-right item2" style="text-align: center;">
+                    <img src="img/BEYOND.png" width=300 height=auto id="beyond-logo" />
+                </div>
             </div>
         </div>
-        <div class="section-right">
-            <div class="section-img">
-
+        <br>
+        <br>
+        <br>
+        <div class="section sec-05 fadeinleft" id="our-members">
+            <div class="section-upper">
+                <h2 class="sub-title">
+                    Our Executives
+                </h2>
             </div>
+            <a href="acting.html" class="circle-container">
+                <div class="wrapper-circle">
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-01">
+
+                        </div>
+                        <p class="icontxt">회장 김채린<br>컴퓨터공학과</p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-02">
+
+                        </div>
+                        <p class="icontxt">교육부장 김지민<br>국어국문학과</p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-03">
+
+                        </div>
+                        <p class="icontxt">
+                            교육부원 박은수<br>
+                            뇌인지과학과
+                        </p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-04">
+
+                        </div>
+                        <p class="icontxt">
+                            교육부원 이주원<br>
+                            문헌정보학과</p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-05">
+
+                        </div>
+                        <p class="icontxt">
+                            홍보부장 김하은<br>
+                            사이버보안학과
+                        </p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-06">
+
+                        </div>
+                        <p class="icontxt">
+                            홍보부원 이가람<br>
+                            화학나노과학과
+                        </p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-07">
+
+                        </div>
+                        <p class="icontxt">
+                            홍보부원 장지선<br>
+                            경영학과
+                        </p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-08">
+
+                        </div>
+                        <p class="icontxt">
+                            재무부장 김지연<br>
+                            사이버보안학과
+                        </p>
+                    </div>
+                    <div class="wrapper-icontxt">
+                        <div class="circle-icon-member" id="circle-member-09">
+
+                        </div>
+                        <p class="icontxt">
+                            총무부장 임주현<br>
+                            휴먼기계바이오공학부
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="section sec-06 fadeinleft" id="recruiting-banner">
+            <div class="section-upper">
+                <h2 class="sub-title">
+                    Recruiting
+                </h2>
+            </div>
+            <div class="sec-06-01 flexbox">
+                <div class="section-left item2">
+                    <p>
+                        이화체인은 2018년도에 블록체인 스터디를 위한 소그룹(1기)에서 시작되어, <br>2022년 1월 <strong>현재 8기</strong>를 진행하고 있는 학회입니다.<br>
+                        이번 기수에는 해외대학과의 네트워킹을 강화하여, <br> <strong>여성 블록체인 글로벌 커뮤니티</strong>를 형성하고, 참여할 예정입니다.<br>
+                        블록체인 업계에 관심이 있는데, 어떤 준비를 해야할지 궁금하신 분, <br> 블록체인 개발이 궁금하신 분,<br> 이미 NFT나 De-Fi와 같은 WEB3 생태계에 익숙하고 같은 비전을 가진 이화인끼리 <br> 프로젝트를 하고 싶으신 분 모두 환영합니다.<br>
+                        <strong>이화체인과 함께 성장하고 싶은 9기 이화인들</strong>을 모집합니다!<br>
+                        많은 관심 부탁드립니다.
+                        (* 이화체인 10기부터는 개강시기가 아닌 종강 직후에 모집합니다.)
+                    </p>
+                    <button class="txtbtn" onclick="location.href='https://reminiscent-cello-2e0.notion.site/EWHA-CHAIN-9th-Recruiting-47d5fffa8c4e40b79645935298f4cf04'">Apply(Notion)</button>
+                </div>
+                <div class="section-right item2">
+                    <img src="img/recrewting.jpg"  style="width:100%" height=auto />
+                </div>
+            </div>
+            <br>
+            <br>
         </div>
     </div>
-    <div class="section sec-03" id="our-activity">
-        <div class="section-upper">
-            <h2 class="sub-title">
-                Our Activity
-            </h2>
-        </div>
-        <div class="circle-container">
-            <div class="wrapper-circle">
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon" id="circle-01">
-
-                    </div>
-                    <p class="icontxt">블록체인 코어 스터디</p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon" id="circle-02">
-
-                    </div>
-                    <p class="icontxt">해커톤 및 각종 공모전 참가</p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon" id="circle-03">
-
-                    </div>
-                    <p class="icontxt">
-                        국내 기업 & 대학 연합<br>
-                        블록체인 네트워크 참가
-                    </p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon" id="circle-04">
-
-                    </div>
-                    <p class="icontxt">연사 초청 세미나</p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon" id="circle-05">
-
-                    </div>
-                    <p class="icontxt">
-                        블록체인 입문자를 위한<br>
-                        웨비나 개최
-                    </p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon" id="circle-06">
-
-                    </div>
-                    <p class="icontxt">이화체인 코인 개발</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section sec-04" id="more">
-        <div class="section-upper">
-            <h2 class="sub-title">
-                이 외에도,
-            </h2>
-        </div>
-        <div class="sec-04-01">
-            <div class="section-left">
-                <img src="img/logo_dsrv.jpg" width=300 height=auto id="company-logo" />
-            </div>
-            <div class="section-right">
-                <p>
-                    다양한 기업들과 협력하여,<br>
-                    블록체인 관련 프로젝트를 진행합니다.
-                </p>
-            </div>
-        </div>
-        <div class="sec-04-02">
-            <div class="section-left">
-                <p id="beyond">
-                    <strong>"B</strong>lockchain<strong>E</strong>wha<strong>Y</strong>onsei<strong>OND"</strong>
-                </p>
-                <p id="beyond-detail">
-                    연세대학교 블록체인 학회와 함께 Beyond라는 팀을 만들어 블록체인 기반 애플리케이션을 기획, 개발하는 프로젝트를 진행중이며, 'Celo'와 'Flow'라는 블록체인을 활용하고
-                    있습니다.
-                </p>
-                <p>
-                    Beyond는 국내에서 대학생으로서는 최초로 11월 NFT 기반 dApp 출시를 앞두고 있습니다.
-                </p>
-            </div>
-            <div class="section-right">
-                <img src="img/logo_dsrv.jpg" width=300 height=auto id="beyond-logo" />
-            </div>
-        </div>
-    </div>
-    <div class="section sec-05" id="our-members">
-        <div class="section-upper">
-            <h2 class="sub-title">
-                Our Members
-            </h2>
-        </div>
-        <a href="https://reminiscent-cello-2e0.notion.site/EWHA-CHAIN-9th-Recruiting-47d5fffa8c4e40b79645935298f4cf04"
-            class="circle-container">
-            <div class="wrapper-circle">
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-01">
-
-                    </div>
-                    <p class="icontxt">회장 김채린<br>컴퓨터공학</p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-02">
-
-                    </div>
-                    <p class="icontxt">교육부장 김지민<br>국어국문학과</p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-03">
-
-                    </div>
-                    <p class="icontxt">
-                        교육부원 박은수<br>
-                        뇌인지과학과
-                    </p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-04">
-
-                    </div>
-                    <p class="icontxt">
-                        교육부원 이주원<br>
-                        문헌정보학과</p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-05">
-
-                    </div>
-                    <p class="icontxt">
-                        홍보부장 김하은<br>
-                        사이버보안
-                    </p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-06">
-
-                    </div>
-                    <p class="icontxt">
-                        홍보부원 이가람<br>
-                        화학나노과학과
-                    </p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-07">
-
-                    </div>
-                    <p class="icontxt">
-                        홍보부원 장지선<br>
-                        경영학과
-                    </p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-08">
-
-                    </div>
-                    <p class="icontxt">
-                        재무부장 김지연<br>
-                        사이버보안
-                    </p>
-                </div>
-                <div class="wrapper-icontxt">
-                    <div class="circle-icon-member" id="circle-member-09">
-
-                    </div>
-                    <p class="icontxt">
-                        총무부장 임주현<br>
-                        휴먼기계바이오공학부
-                    </p>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="section sec-06" id="recruiting-banner">
-        <div class="section-upper">
-            <h2 class="sub-title">
-                Recruiting
-            </h2>
-        </div>
-        <div class="sec-06-01">
-            <div class="section-left">
-                <p>
-                    이화체인과 함께할 벗들을 모집합니다!<br>
-                    많은 관심 부탁드립니다.
-                </p>
-                <button class="txtbtn" onclick="location.href='recruiting.html'">Learn more</button>
-            </div>
-            <div class="section-right">
-                <img src="img/logo_dsrv.jpg" width=300 height=auto />
-            </div>
-        </div>
-
-    </div>
-    <!-- </div> -->
-
     <div data-include-path="footer.html"></div>
     <script type="text/javascript" src="script.js"></script>
 </body>
+<script>
+    /*타이핑 코드*/
+    var typingBool = false; 
+    var typingIdx=0; 
+    var liIndex = 0;
+    var liLength = $(".typing-txt>ul>li").length;
+
+    var typingTxt = $(".typing-txt>ul>li").eq(liIndex).text(); 
+    typingTxt=typingTxt.split("");
+    if(typingBool==false){ 
+        typingBool=true; 
+        var tyInt = setInterval(typing,100);
+    } 
+        
+    function typing(){ 
+    $(".typing ul li").removeClass("on");
+    $(".typing ul li").eq(liIndex).addClass("on");
+    if(typingIdx<typingTxt.length){
+        $(".typing ul li").eq(liIndex).append(typingTxt[typingIdx]); 
+        typingIdx++; 
+        } else{ if(liIndex<liLength-1){
+            liIndex++; 
+                typingIdx=0;
+                typingBool = false; 
+                typingTxt = $(".typing-txt>ul>li").eq(liIndex).text(); 
+                clearInterval(tyInt);
+                setTimeout(function(){
+                tyInt = setInterval(typing,100);
+                },1000);
+                } else if(liIndex==liLength-1){
+                clearInterval(tyInt);
+                $('#sec-01-slogan').fadeIn(2000);
+                }
+            } 
+        }  
+
+        </script>
+        <style>
+            .fadeinleft {
+                opacity:0;
+                margin-left:-300px;    
+                max-width:100%;
+            }
+        </style>
+        <script>
+            /*fade 코드*/
+            $(document).ready(function() {
+        $(window).scroll( function(){
+            $('.fadeinleft').each( function(i){
+                
+                var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                
+                if( bottom_of_window+10 > bottom_of_element ){
+                    $(this).animate({'opacity':'1','margin-left':'0px'},1000);
+                }
+                
+            }); 
+        });
+    });
+
+    </script>
+    
+
+<script>
+    const toggleBtn = document.querySelector('.navbar__toggleBtn');
+    const menu = document.querySelector('.navbar__menu');
+
+    toggleBtn.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    });
+
+</script>
 
 </html>

@@ -4,24 +4,372 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>이화체인 EWHACHAIN</title>
     <link rel="stylesheet" href="style1.css" />
     <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style3.css" />
     <link rel="stylesheet" href="layout.css" />
-    <!-- <link rel="stylesheet" href="style2.css" /> -->
-    <title>Acting</title>
+    <!-- 아래 두 코드는 웹사이트에 반드시 필요한 코드이므로, 웬만하면 무조건 어느 페이지나 넣어주세요 --> 
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+    src="https://kit.fontawesome.com/2d323a629b.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 
 <body>
-    <div data-include-path="header.html"></div>
+        <!-- header -->
+        <header>
+            <nav class="navbar">
+                <!-- Logo with text -->
+                <div class="navbar__logo">
+                  <a href="index.html">
+                      <img src="sitelogo.png" width=200 height=auto alt="ewhachain-logo" title="logo">
+                  </a>
+                </div>
+                
+                <!-- Menu -->
+                <ul class="navbar__menu">
+                  <li>                           
+                      <a href="index.html">Home</a>
+                  </li>
+                  <li>
+                      <a href="#" onclick="alert('곧 공개됩니다!');return false;">Portfolio</a>
+                  </li>
+                  <li>                            
+                      <a href="recruiting.html">Recruiting</a>
+                  </li>
+                  <li>                                
+                      <a href="acting.html">Members</a>
+                  </li>
+                  <li>
+                      <a href="#" onclick="alert('졸업 학회원, 현 학회원 대상으로 곧 공개됩니다!');return false;">Alumni</a>
+                  </li>
+                </ul>
+                <!-- Toggle button -->
+                <a href="#" class="navbar__toggleBtn">
+                  <i class="fas fa-bars"></i>
+                </a>
+              </nav>
+        </header>
+
     <div class="member">
-        <div class="acting_title green_title">
-            <h1>&nbsp&nbspMEMBERS</h1>
+        <div class="recruiting_title green_title">
+            <h1 style="font-family: 'Josefin Sans', sans-serif;">MEMBERS</h1>
         </div>
     </div>
+    <div class="containeract" style="font-family: 'AppleSDGothicNeo';">
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/m01.jpg"
+                    alt="">
+                <strong>김채린 | 7th</strong>
+                <p>9기 학회장</p>
+                <p>decentralized0212@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/in/chaerin-kim-a270101b8/"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="https://github.com/decentra1ized"><i class="fa fa-github" aria-hidden="true">&nbspGithub</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>김지민 | 7th</strong>
+                <p>9기 교육부장</p>
+                <p>likecharry@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="https://github.com/jimmimmim"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>박은수 | 6th</strong>
+                <p>9기 교육부원</p>
+                <p>silveres@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/m04.jpeg"
+                    alt="">
+                <strong>이주원 | 7th</strong>
+                <p>9기 교육부원</p>
+                <p>zoowon82@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/in/2-zoo1"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/m05.jpeg"
+                    alt="">
+                <strong>김하은 | 8th</strong>
+                <p>9기 홍보부장</p>
+                <p>haeun506@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/mwlite/in/haeun-kim-789a1722b"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>이가람 | 8th</strong>
+                <p>9기 홍보부원</p>
+                <p>garmker@ewhain@net</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>장지선 | 8th</strong>
+                <p>9기 홍보부원</p>
+                <p>jangjiseon95@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/in/jiseon-jang-1494661a2/"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>김지연 | 8th</strong>
+                <p>9기 재무부장</p>
+                <p>rlawldus0527@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/in/jiyeon0326527"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/m09.png"
+                    alt="">
+                <strong>임주현 | 8th</strong>
+                <p>9기 총무부장</p>
+                <p>juhyeon@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>김나연 | 6th</strong>
+                <p>학회원</p>
+                <p>knana18@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>김채연 | 7th</strong>
+                <p>8기 학회장</p>
+                <p>chaengniiiii@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>이정화 | 7th</strong>
+                <p>8기 홍보부장</p>
+                <p>leejeonghwa@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>김한희 | 7th</strong>
+                <p>학회원</p>
+                <p>hanhee130@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>안혜진 | 7th</strong>
+                <p>학회원</p>
+                <p>geniee44@naver.com</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/in/hyejin-ahn-b63793209
+                "><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>박민경 | 7th</strong>
+                <p>학회원</p>
+                <p>mgpark@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>허제원 | 7th</strong>
+                <p>학회원</p>
+                <p>gjwpdnjs11@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>안유미 | 8th</strong>
+                <p>학회원</p>
+                <p>yoomie0310@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>조서영 | 8th</strong>
+                <p>학회원</p>
+                <p>stellamore99@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/in/seoyoung-jo-232822200"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>박세원 | 8th</strong>
+                <p>학회원</p>
+                <p>psw00719@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>윤수지 | 8th</strong>
+                <p>학회원</p>
+                <p>jidl88@ewhain.net</p>
+            </div>
+            <div class="btn">
+                <a href="https://www.linkedin.com/in/suji-yoon-05ba1922b"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="top-bar"></div>
+            <div class="contentc">
+                <img src="img/icon/profile.png"
+                    alt="">
+                <strong>하서영 | 8th</strong>
+                <p>학회원</p>
+                <p>hasy0224@gmail.com</p>
+            </div>
+            <div class="btn">
+                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;Linkedin</a>
+                <a href="#"><i class="fa fa-github" aria-hidden="true">&nbsp;Github</i></a>
+            </div>
+        </div>
+    </div>
+        
+        
+    </div>
 
+    <br>
+    <br>
+    <br>
     <div data-include-path="footer.html"></div>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="navbar.js"></script>
 </body>
+
 
 </html>

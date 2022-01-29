@@ -87,6 +87,7 @@
 
 .content {
     margin-left: 50px;
+    font-family: 'AppleSDGothicNeo';
 }
 
 .sub-section {
@@ -99,17 +100,17 @@
 .section {
     width: 100%;
     /* height: 500px; */
-    overflow: hidden;
     position: relative;
 }
 
-.sec-half {
-    height: 300px;
-}
+/* 
+
+
+*/
 
 .sec-01 {
-    margin-top: 80px;
-    height: 300px;
+    margin-top: 0px;
+    height: 700px;
 }
 
 .sec-02 {
@@ -136,12 +137,13 @@
 .sec-06-01 {
     display: flex;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 40px;
 }
 
 .section-upper {
     font-size: 120%;
     margin: 20px 0;
+    font-family: 'Josefin Sans', sans-serif;
     /* border: 10px solid blue; */
 }
 
@@ -164,6 +166,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 40px auto;
+    display: inline-block;
 }
 
 .wrapper-icontxt {
@@ -177,6 +180,7 @@
 .icontxt {
     display: block;
     height: 50px;
+    font-family: 'AppleSDGothicNeo';
     /* text vertical align middle */
     /* border: 2px solid red; */
 }
@@ -188,10 +192,12 @@
 .footer-container {
     display: flex;
     flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .footer {
     position: relative;
+    display: block;
     bottom: 0;
     width: 100%;
     padding-top: 10px;
@@ -199,13 +205,27 @@
 }
 
 .menu-left {
-    margin-left: 50px;
+    margin-left: 20px;
     flex-grow: 1;
+    min-width: 360px;
+    flex-basis: 200px;
 }
 
 .menu-right {
-    margin-right: 50px;
+    margin-right: 20px;
+    flex-basis: 200px;
 }
+
+@media screen and (max-width: 749px) {
+    .menu-right {
+        margin-left: 20px;
+        margin-top:10px;
+    }
+    .footer{
+        padding-bottom:10px;
+    }
+   }
+
 
 .footer-title {
     margin-top: 10px;
@@ -242,4 +262,28 @@
 /* ACTING PAGE */
 .member {
     margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper-icontxt {
+        width: 150px;
+        height: 170px;
+    }
+
+    .sec-04-01, .sec-04-02 {
+        padding-left: 30px;
+    }
+}
+
+#beyond-logo{
+    width:70%;
+}
+
+@media screen and (min-width: 768px) {
+    #beyond-logo{
+        margin:20px;
+    }
+    .sec-04-02 {
+        padding-bottom: 20px;
+    }
 }
