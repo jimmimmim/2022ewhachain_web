@@ -2,54 +2,51 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
-    <link rel="stylesheet" href="style1.css" />
-    <link rel="stylesheet" href="style2.css" />
-    <link rel="stylesheet" href="layout.css" />
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script
-    src="https://kit.fontawesome.com/2d323a629b.js"
-    crossorigin="anonymous"
-  ></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header</title>
+  <link rel="stylesheet" href="style1.css" />
+  <link rel="stylesheet" href="style2.css" />
+  <link rel="stylesheet" href="layout.css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-      <nav class="navbar">
-        <!-- Logo with text -->
-        <div class="navbar__logo">
-          <a href="index.html">
-              <img src="sitelogo.png" width=200 height=auto alt="ewhachain-logo" title="logo">
-          </a>
-        </div>
-        
-        <!-- Menu -->
-        <ul class="navbar__menu">
-          <li>                           
-              <a href="index.html">Home</a>
-          </li>
-          <li>
-              <a href="#" onclick="alert('곧 공개됩니다!');return false;">Portfolio</a>
-          </li>
-          <li>                            
-              <a href="recruiting.html">Recruiting</a>
-          </li>
-          <li>                                
-              <a href="acting.html">Members</a>
-          </li>
-          <li>
-              <a href="#" onclick="alert('졸업 학회원, 현 학회원 대상으로 곧 공개됩니다!');return false;">Alumni</a>
-          </li>
-        </ul>
-        <!-- Toggle button -->
-        <a href="#" class="navbar__toggleBtn">
-          <i class="fas fa-bars"></i>
+  <header>
+    <nav class="navbar">
+      <!-- Logo with text -->
+      <div class="navbar__logo">
+        <a href="index.html">
+          <img src="sitelogo.png" width=200 height=auto alt="ewhachain-logo" title="logo">
         </a>
-      </nav>
-    </header>
+      </div>
+
+      <!-- Menu -->
+      <ul class="navbar__menu">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="#" onclick="alert('Coming Soon!');return false;">Portfolio</a>
+        </li>
+        <li>
+          <a href="recruiting.html">Recruiting</a>
+        </li>
+        <li>
+          <a href="acting.html">Members</a>
+        </li>
+        <li>
+          <a href="#" onclick="alert('졸업 학회원, 현 학회원 대상으로 곧 공개됩니다!');return false;">Alumni</a>
+        </li>
+      </ul>
+      <!-- Toggle button -->
+      <a href="#" class="navbar__toggleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+  </header>
 
 </body>
 
@@ -58,9 +55,8 @@
   const menu = document.querySelector('.navbar__menu');
 
   toggleBtn.addEventListener('click', () => {
-  menu.classList.toggle('active');
+    menu.classList.toggle('active');
   });
-
 </script>
 
 </html>
