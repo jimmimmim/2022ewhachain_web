@@ -471,7 +471,7 @@
 }
 
 .answer {
-    /* display: none; */
+    display: none;
     padding-left: 100px;
     line-height: 50px;
     padding-bottom: 50px;
