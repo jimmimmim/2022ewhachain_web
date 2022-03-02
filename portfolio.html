@@ -8,6 +8,27 @@
     <title>2022 EWHACHAIN</title>
     <link rel="stylesheet" href="style2.css" />
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript">
+        // F12 버튼 방지 
+        $(document).ready(function () {
+            $(document).bind('keydown', function (e) {
+                if (e.keyCode == 123 /* F12 */ ) {
+                    e.preventDefault();
+                    e.returnValue = false;
+                }
+            });
+        });
+        // 우측 클릭 방지 
+        // document.onmousedown = disableclick;
+        // status = "Right click is not available.";
+
+        // function disableclick(event) {
+        //     if (event.button == 2) {
+        //         alert(status);
+        //         return false;
+        //     }
+        // }
+    </script>
 </head>
 
 <body>
@@ -95,7 +116,9 @@
                     <div class="cd-timeline__block animation_fade_in">
                         <!-- ... -->
                         <div class="cd-timeline__content text-component1">
-                            <p>NAVER AI BURNING DAY해커톤 본선 진출<br>제3회 데이터 걸스데이톤 최우수상 한화 드림인 블록체인 해커톤 본선 진출<br>2021 혁신적인 ICT 제품∙서비스 발굴을 위한 아이디어 공모전 금상<br>한국인터넷진흥원 2020 블록체인 아이디어 공모전 장관상(대상)<br>Kakao GroundX MDAG 산학협력 NH디지털혁신캠퍼스 해커톤 장려상</p>
+                            <p>NAVER AI BURNING DAY해커톤 본선 진출<br>제3회 데이터 걸스데이톤 최우수상 한화 드림인 블록체인 해커톤 본선 진출<br>2021 혁신적인
+                                ICT 제품∙서비스 발굴을 위한 아이디어 공모전 금상<br>한국인터넷진흥원 2020 블록체인 아이디어 공모전 장관상(대상)<br>Kakao GroundX
+                                MDAG 산학협력 NH디지털혁신캠퍼스 해커톤 장려상</p>
                             <div id="triangle-topleft"></div>
 
                             <!-- <div class="bar_line1">
@@ -110,7 +133,8 @@
                         <div class="cd-timeline__content text-component2">
                             <h1>2021</h1>
                             <div id="triangle-topright"></div>
-                            <p>Taebit Global Defi Online HACKATHON 장려상<br>MAKE IT MOBILE HACKATHON WITH CELO<br>3rd Place / Best Women’s Project상</p>
+                            <p>Taebit Global Defi Online HACKATHON 장려상<br>MAKE IT MOBILE HACKATHON WITH CELO<br>3rd
+                                Place / Best Women’s Project상</p>
                             <!-- <div class="bar_line2">
                                 <div class="circle"></div>
                                 <hr class="bar_line_sub">
@@ -188,8 +212,8 @@
     <div data-include-path="footer.html"></div>
     <script type="text/javascript" src="script.js"></script>
     <script>
-        $(window).scroll(function() {
-            $('.animation_fade_in').each(function() {
+        $(window).scroll(function () {
+            $('.animation_fade_in').each(function () {
                 var imagePos = $(this).offset().top;
 
                 var topOfWindow = $(window).scrollTop();
@@ -197,7 +221,7 @@
                     $(this).addClass("fadeIn");
                 }
             });
-            $('.animation_fade_in2').each(function() {
+            $('.animation_fade_in2').each(function () {
                 var imagePos = $(this).offset().top;
 
                 var topOfWindow = $(window).scrollTop();

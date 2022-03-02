@@ -166,7 +166,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 40px auto;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .wrapper-icontxt {
@@ -179,10 +179,9 @@
 
 .icontxt {
     display: block;
-    height: 50px;
+    height: 70px;
     font-family: 'AppleSDGothicNeo';
     /* text vertical align middle */
-    /* border: 2px solid red; */
 }
 
 /*++++++++*/
@@ -255,14 +254,18 @@
 }
 
 /* RECRUITING PAGE */
-.recruiting {
+/* .recruiting {
     margin-top: 80px;
+} */
+
+#faq-section{
+    margin-bottom: 50px;
 }
 
 /* ACTING PAGE */
-.member {
+/* .member {
     margin-top: 80px;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .wrapper-icontxt {

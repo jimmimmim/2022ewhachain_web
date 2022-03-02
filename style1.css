@@ -233,7 +233,8 @@ a:hover {
     width: 100%;
     height: 100%;
     min-height:250px;
-    background-image: url(img/session_img.jpeg);
+    /* background-image: url(img/session_img.jpeg); */
+    background-image: url(img/session2_img.png);
     background-color: linear-gradient(#5f72bd, rgba(71, 64, 191, 0));
     background-position: center;
     background-size: cover;
@@ -339,15 +340,15 @@ a:hover {
 }
 
 #circle-06 {
-    background-size: 70px;
+    /* background-size: 70px; */
     background-image: url(img/icon/search.png);
 }
 
 .circle-icon-member {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     background: white;
-    background-size: 100px;
+    background-size: 90px;
     background-image: url(img/icon/profile.png);
 }
 
@@ -357,23 +358,23 @@ a:hover {
 }
 
 .circle-icon:hover {
-    cursor: pointer;
     background-size: 110px;
+    cursor: pointer;
 }
 
 #circle-member-01{
     background-image: url(img/m01.jpg);
 }
 
-#circle-member-04{
+#circle-member-03{
     background-image: url(img/m04.jpeg);
 }
 
-#circle-member-05{
+#circle-member-04{
     background-image: url(img/m05.jpeg);
 }
 
-#circle-member-09{
+#circle-member-07{
     background-image: url(img/m09.png);
 }
 
@@ -558,3 +559,12 @@ ul{list-style:none;}
     }
 
   }
+
+/* ANIMATION - FADE IN */
+
+.fadeinleft {
+    opacity: 0;
+    /* margin-left: -300px; */
+    margin-top: 300px;
+    max-width: 100%;
+}
